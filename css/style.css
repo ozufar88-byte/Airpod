@@ -1,0 +1,62 @@
+@import 'font.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+body {
+    font-family: 'Montserrat';
+    background: #282828;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ====================================== Navbar start ============================================ */
+
+.nav {
+    box-shadow: 0px 4px 20px 0px #00000040;
+    padding: 6px 0;
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.nav__link {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav__search {
+    color: white;
+    display: flex;
+    column-gap: 25px;
+}
