@@ -89,3 +89,25 @@ body {
     line-height: 100%;
     border-radius: 10px;
 }
+
+/* ================================================================ Model  start ========================================================= */
+
+.model {
+    background: #121212;
+}
+
+.model .container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.model__text {
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.model:last-of-type .container {
+    align-items: center;
+    column-gap: 100px;
+}
